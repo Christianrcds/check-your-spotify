@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
-import Button from './Components/Button'
+import Button from '../Components/Button'
 
 const Home: React.FC = () => {
   return (
