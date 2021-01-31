@@ -13,9 +13,11 @@ const Home: React.FC = () => {
       <main className="bg-black flex items-center justify-center h-screen">
         <button className="flex justify-content hover:text-green-700 text-white font-bold py-2 px-4 rounded-full">
           <Link href="/YourSpotify">
-            <a>Get Started </a>
+            <a className="text-5xl font-bold flex content-align">
+              Get Started
+              <FaSpotify className="ml-5" />
+            </a>
           </Link>
-          <FaSpotify className="ml-2 mt-1" />
         </button>
       </main>
     </div>
