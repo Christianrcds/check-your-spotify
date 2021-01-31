@@ -1,25 +1,26 @@
-import {colors} from ('tailwindcss/colors')
+const colors = require('tailwindcss/colors')
 
 module.exports = {
-   theme: {
+  theme: {
     colors: {
+      ...colors,
       gray: colors.coolGray,
       blue: colors.lightBlue,
       red: colors.rose,
-      pink: colors.fuchsia,
+      pink: colors.fuchsia
     },
-     fontFamily: {
+    fontFamily: {
       sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      serif: ['Merriweather', 'serif']
     },
-     extend: {
+    extend: {
       spacing: {
-        '128': '32rem',
-        '144': '36rem',
+        128: '32rem',
+        144: '36rem'
       },
       borderRadius: {
-        '4xl': '2rem',
+        '4xl': '2rem'
       }
-  },
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+    }
+  }
 }
