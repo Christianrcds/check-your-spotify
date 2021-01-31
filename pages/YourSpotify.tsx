@@ -1,9 +1,9 @@
 import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
-import Button from './Components/Button'
+import Button from '../Components/Button'
 
-const Home: React.FC = () => {
+const CheckYourSpotify: React.FC = () => {
   return (
     <div>
       <Head>
@@ -21,4 +21,4 @@ const Home: React.FC = () => {
   )
 }
 
-export default Home
+export default CheckYourSpotify
