@@ -12,7 +12,7 @@ const Home: React.FC = () => {
 
       <main className="bg-black flex items-center justify-center h-screen">
         <button className="flex justify-content hover:text-green-700 text-white font-bold py-2 px-4 rounded-full transition-colors duration-500">
-          <Link href="/YourSpotify">
+          <Link href="/your_spotify">
             <a className="text-5xl font-bold flex content-align">
               Get Started
               <FaSpotify className="ml-5" />
